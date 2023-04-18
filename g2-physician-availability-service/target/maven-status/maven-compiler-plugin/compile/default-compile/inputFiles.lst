@@ -1,0 +1,11 @@
+D:\G2-Capstone-pms-backend\updated\g2-physician-availability-service\src\main\java\com\pms\service\impl\PhysicianServiceImpl.java
+D:\G2-Capstone-pms-backend\updated\g2-physician-availability-service\src\main\java\com\pms\controller\CentralizedLogging.java
+D:\G2-Capstone-pms-backend\updated\g2-physician-availability-service\src\main\java\com\pms\exception\PhysicianServiceException.java
+D:\G2-Capstone-pms-backend\updated\g2-physician-availability-service\src\main\java\com\pms\repository\PhysicianRepository.java
+D:\G2-Capstone-pms-backend\updated\g2-physician-availability-service\src\main\java\com\pms\entity\Physician.java
+D:\G2-Capstone-pms-backend\updated\g2-physician-availability-service\src\main\java\com\pms\exception\ErrorResponse.java
+D:\G2-Capstone-pms-backend\updated\g2-physician-availability-service\src\main\java\com\pms\exception\GlobalExceptionHandler.java
+D:\G2-Capstone-pms-backend\updated\g2-physician-availability-service\src\main\java\com\pms\controller\PhysicianController.java
+D:\G2-Capstone-pms-backend\updated\g2-physician-availability-service\src\main\java\com\pms\service\PhysicianService.java
+D:\G2-Capstone-pms-backend\updated\g2-physician-availability-service\src\main\java\com\pms\entity\CustomIdGenerator.java
+D:\G2-Capstone-pms-backend\updated\g2-physician-availability-service\src\main\java\com\pms\G2PhysicianAvailabilityServiceApplication.java

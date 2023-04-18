@@ -1,0 +1,11 @@
+com\pms\repository\PhysicianRepository.class
+com\pms\G2PhysicianAvailabilityServiceApplication.class
+com\pms\exception\ErrorResponse.class
+com\pms\exception\PhysicianServiceException.class
+com\pms\exception\GlobalExceptionHandler.class
+com\pms\entity\CustomIdGenerator.class
+com\pms\controller\CentralizedLogging.class
+com\pms\entity\Physician.class
+com\pms\service\impl\PhysicianServiceImpl.class
+com\pms\service\PhysicianService.class
+com\pms\controller\PhysicianController.class

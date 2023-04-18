@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.pms.G2PhysicianAvailabilityServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 21.057 s <<< FAILURE! - in com.pms.G2PhysicianAvailabilityServiceApplicationTests
+contextLoads  Time elapsed: 0.022 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@6566da90 testClass = com.pms.G2PhysicianAvailabilityServiceApplicationTests, locations = [], classes = [com.pms.G2PhysicianAvailabilityServiceApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@15a34df2, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@55cb6996, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@dc7df28, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@4d15107f, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@9da1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@475c9c31, org.springframework.boot.test.context.SpringBootTestAnnotation@90c070c6], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'end_date' cannot be null
+
